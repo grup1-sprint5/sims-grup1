@@ -79,14 +79,17 @@ Booleans: Sempre amb prefix d'estat (is, has, can, should). Exemple: isActive, h
 ### 5. Control de Versions (Git)
 Branca principal: main.
 
-Branques de funcionalitat: feature/nom-de-la-tasca (Ex: feature/auth-system).
+Branques de funcionalitat: feature/F-X (X= numero de la tasca) (Ex: feature/F-1).
 
 Commits:
 
-Idioma: Anglès.
+Idioma: Català.
 
-Format: Tipus: Descripció curta (Ex: fix: resolve login validation error).
+Format: Tipus: Descripció curta (Ex: fix/F-1-ArreglarLogin).
 
 Pull Requests: Requereixen una descripció clara i la revisió de conformitat amb aquestes convencions abans de ser fusionades.
 
+Actualització de branques: Abans de fer el merge, la branca feature/F-X ha d'estar actualitzada amb l'última versió de Develop per evitar conflictes d'últim moment.
+
+Revisió de Codi (Code Review): Cap Pull Request serà fusionada sense l'aprovació d'almenys un altre responsable.
 
