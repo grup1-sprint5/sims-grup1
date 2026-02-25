@@ -77,7 +77,8 @@ Semàntica: Noms descriptius; evitar lletres soles excepte en iteradors puntuals
 Booleans: Sempre amb prefix d'estat (is, has, can, should). Exemple: isActive, hasSubscription.
 
 ### 5. Control de Versions (Git)
-Branca principal: main.
+Branca de desplegament(producció): main.
+Branca de treball en equip: Develop.
 
 Branques de funcionalitat: feature/F-X (X= numero de la tasca) (Ex: feature/F-1).
 
@@ -87,9 +88,9 @@ Idioma: Català.
 
 Format: Tipus: Descripció curta (Ex: fix/F-1-ArreglarLogin).
 
-Pull Requests: Requereixen una descripció clara i la revisió de conformitat amb aquestes convencions abans de ser fusionades.
+Pull Requests: Requereixen una descripció clara i seguir les convencions abans de ser enviades per a ser mergeades a la Develop.
 
-Actualització de branques: Abans de fer el merge, la branca feature/F-X ha d'estar actualitzada amb l'última versió de Develop per evitar conflictes d'últim moment.
+Actualització de branques: Abans de fer la PR, la branca feature/F-X ha d'estar actualitzada amb l'última versió de Develop per evitar conflictes d'últim moment.
 
-Revisió de Codi (Code Review): Cap Pull Request serà fusionada sense l'aprovació d'almenys un altre responsable.
+Revisió de Codi (Code Review): Cap Pull Request serà fusionada sense l'aprovació d'almenys d'algu diferent de qui fa la PR.
 
